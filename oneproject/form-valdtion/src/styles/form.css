@@ -1,0 +1,76 @@
+```css body {
+    font-family: sans-serif;
+    background-color: #ddd;
+}
+
+div.parent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.parent h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.parent form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.parent label {
+    font-size: 1rem;
+    color: #333;
+    text-align: left;
+}
+
+.parent input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.parent input:focus {
+    outline: none;
+    border-color: #532494;
+    box-shadow: 0 0 5px rgba(83, 36, 148, 0.3);
+}
+
+.parent button {
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+}
+
+.parent button:hover {
+    background-color: #333;
+}
+
+.parent button:disabled {
+    background-color: #666;
+    cursor: not-allowed;
+}
+
+.eror {
+    color: red;
+}
