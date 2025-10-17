@@ -6,6 +6,8 @@ This project includes examples of:
 - ✅ Form (registration form)
 - ✅ Counter(Increament - Decreament - Reset)
 - ✅ Cards With Props
+- ✅ Modal
+
 
 
 
