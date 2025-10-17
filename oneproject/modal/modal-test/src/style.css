@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    background-color: #ddd;
+}
+
+.parent {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+.parent .close {
+    position: absolute;
+    top: -30px;
+    right: 0px;
+    background-color: black;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.active {
+    display: none;
+}
