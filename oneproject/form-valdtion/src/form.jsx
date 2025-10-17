@@ -1,5 +1,6 @@
 import "./styles/form.css"
-import { useState } from "react"
+import { useEffect, useState } from "react"
+import { useRef } from "react";
 import Swal from "sweetalert2";
 
 function Form(){
@@ -7,7 +8,8 @@ function Form(){
     const[email,setemail]=useState('');
     const[password,setpass]=useState('');
     const[rep,setrep]=useState('');
-    const[check,setcheck]=useState(false)
+    const checkref=useRef(null);
+   
     function handle(e){
         e.preventDefault()
         if(user ==="" || email ==="" || password===""|| rep===""){
@@ -29,6 +31,9 @@ function Form(){
         }
 
     }
+    useEffect(()=>{
+            checkref.current.focus()
+    },[])
   
     
 
@@ -38,8 +43,7 @@ function Form(){
         <div className="parent">
             <form action="">
                 <label htmlFor="">UserName</label>
-                <input type="text" onChange={(e)=>setuser(e.currentTarget.value)} value={user} placeholder="Enter Name" name="" id="" />
-                {user==="" && check && <p className="eror">Not Vladtion input try again</p>}
+                <input ref={checkref} type="text" onChange={(e)=>setuser(e.currentTarget.value)} value={user} placeholder="Enter Name" name="" id="" />
                 <label htmlFor="">Email</label>
                 <input type="email" onChange={(e)=>setemail(e.currentTarget.value)} value={email} name="" id="" placeholder="Enter Email" />
                 <label htmlFor="">Password</label>
