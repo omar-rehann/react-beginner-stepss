@@ -8,6 +8,8 @@ This project includes examples of:
 - ✅ Cards With Props
 - ✅ Modal
 - ✅ Navbar
+- ✅ Broweser Link
+
 
 
 
