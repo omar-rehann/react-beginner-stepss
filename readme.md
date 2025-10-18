@@ -7,6 +7,8 @@ This project includes examples of:
 - ✅ Counter(Increament - Decreament - Reset)
 - ✅ Cards With Props
 - ✅ Modal
+- ✅ Navbar
+
 
 
 
