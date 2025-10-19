@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+    background-color: #ddd;
+}
+
+.parent {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.parent table {
+    padding: 10px;
+}
