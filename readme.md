@@ -9,6 +9,8 @@ This project includes examples of:
 - ✅ Modal
 - ✅ Navbar
 - ✅ Broweser Link
+- ✅ Fetch Data from json place holder
+
 
 
 
