@@ -10,6 +10,8 @@ This project includes examples of:
 - ✅ Navbar
 - ✅ Broweser Link
 - ✅ Fetch Data from json place holder
+- ✅ Counter USer Redux 
+
 
 
 
