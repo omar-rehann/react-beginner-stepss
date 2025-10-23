@@ -11,6 +11,8 @@ This project includes examples of:
 - ✅ Broweser Link
 - ✅ Fetch Data from json place holder
 - ✅ Counter USer Redux [handle multivalue and multiselector]
+- ✅ Redux Toolkit
+
 
 
 
