@@ -10,7 +10,7 @@ This project includes examples of:
 - ✅ Navbar
 - ✅ Broweser Link
 - ✅ Fetch Data from json place holder
-- ✅ Counter USer Redux 
+- ✅ Counter USer Redux [handle multivalue and multiselector]
 
 
 

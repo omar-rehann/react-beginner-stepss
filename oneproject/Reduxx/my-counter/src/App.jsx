@@ -3,7 +3,7 @@ import { createStore } from 'redux';
 import { Provider, useSelector, useDispatch } from 'react-redux';
 
 // Reducer
-const initialState = { value: 0 };
+const initialState = { value: 0 ,name:"omar"};
 
 function counterReducer(state = initialState, action) {
   switch (action.type) {
@@ -24,12 +24,16 @@ const store = createStore(counterReducer);
 //  UI Component
 function Counter() {
   const count = useSelector((state) => state.value);
+   const name = useSelector((state) => state.name);
+
   const dispatch = useDispatch();
 
   return (
     <div style={{ textAlign: 'center', marginTop: '2rem' }}>
       <h1>Redux Counter</h1>
       <p style={{ fontSize: '2rem' }}>{count}</p>
+            <p style={{ fontSize: '2rem' }}>{name}</p>
+
 
       <div style={{ display: 'flex', gap: '8px', justifyContent: 'center' }}>
         <button onClick={() => dispatch({ type: 'DECREMENT' })}>-</button>
